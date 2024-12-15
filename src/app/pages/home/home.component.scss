@@ -1,0 +1,19 @@
+.bg-image {
+    background-image: url('../../assets/app_home.png');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h3 {
+    position: absolute;
+    top:100px;
+    //width: 100%;
+    //text-align: left;
+    color: snow;  /* Adjust color if needed */
+    left:35%;
+  }
+  
