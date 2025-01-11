@@ -1,11 +1,12 @@
 .bg-image {
-    background-image: url('../../assets/app_home.png');
+    background-image: url('/assets/app_home.png');
     height: 100vh;
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 10;
   }
 
   h1 {
@@ -14,5 +15,12 @@
     width: 0%;
     text-align: center;
     color: snow;  /* Adjust color if needed */
+  }
+  
+  .login-container {
+    display: flex;
+    // justify-content: center;
+    // align-items: center;
+    width: 100%;
   }
   
