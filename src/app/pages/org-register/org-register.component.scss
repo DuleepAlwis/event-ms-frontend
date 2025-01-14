@@ -22,3 +22,31 @@
     height: 100%;
   }
   
+  .register-form-container{
+    width: 50%; /* Adjust this percentage as needed */
+    height: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    background-color: #00008b;
+    color: white;
+  }
+
+
+  .register-form-container > div{
+    width: 100%;
+    height: 100%;
+  }
+
+  .errorMsg{
+    display: block;
+    color:red;
+    font-family: "Times New Roman", Times, serif;
+    width:35%;
+    height:15px;
+    margin-left:10px;
+  }
+  
+
+  
+  
